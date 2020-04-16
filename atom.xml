@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anruowangluo.github.io/"/>
-  <updated>2020-04-15T07:47:39.174Z</updated>
+  <updated>2020-04-16T13:40:05.659Z</updated>
   <id>https://anruowangluo.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DataSouce连接数据库失败</title>
+    <link href="https://anruowangluo.github.io/2020/04/16/DataSouce%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%B1%E8%B4%A5/"/>
+    <id>https://anruowangluo.github.io/2020/04/16/DataSouce%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%B1%E8%B4%A5/</id>
+    <published>2020-04-16T13:40:51.319Z</published>
+    <updated>2020-04-16T13:40:05.659Z</updated>
+    
+    <content type="html"><![CDATA[<p>DataSouce连接数据库提示              </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Connection to root<span class="meta">@localhost</span> failed.</span><br><span class="line">[<span class="number">08001</span>] Could not create     connection to database server. Attempted reconnect <span class="number">3</span> times. Giving up.</span><br></pre></td></tr></table></figure><p>在jdbc:mysql://localhost:3306/rbac后添加</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">?serverTimezone=UTC&amp;useUnicode=<span class="keyword">true</span>&amp;chaacterEncoding=utf-<span class="number">8</span></span><br></pre></td></tr></table></figure><p>即可！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;DataSouce连接数据库提示              &lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo部署到GitHub</title>

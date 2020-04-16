@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>DataSouce连接数据库失败</title>
+      <link href="/2020/04/16/DataSouce%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%B1%E8%B4%A5/"/>
+      <url>/2020/04/16/DataSouce%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%B1%E8%B4%A5/</url>
+      
+        <content type="html"><![CDATA[<p>DataSouce连接数据库提示              </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Connection to root<span class="meta">@localhost</span> failed.</span><br><span class="line">[<span class="number">08001</span>] Could not create     connection to database server. Attempted reconnect <span class="number">3</span> times. Giving up.</span><br></pre></td></tr></table></figure><p>在jdbc:mysql://localhost:3306/rbac后添加</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">?serverTimezone=UTC&amp;useUnicode=<span class="keyword">true</span>&amp;chaacterEncoding=utf-<span class="number">8</span></span><br></pre></td></tr></table></figure><p>即可！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo部署到GitHub</title>
       <link href="/2020/04/15/hexo%E9%83%A8%E7%BD%B2%E5%88%B0GitHub/"/>
       <url>/2020/04/15/hexo%E9%83%A8%E7%BD%B2%E5%88%B0GitHub/</url>
