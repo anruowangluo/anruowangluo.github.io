@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>安若博客探索版</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -14,7 +14,7 @@
     
   </author>
   
-  <generator uri="https://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">安若博客探索版</generator>
   
   <entry>
     <title>【学习笔记】JAVA学习笔记</title>
